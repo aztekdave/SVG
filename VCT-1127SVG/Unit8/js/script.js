@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     var rect1 = $(".cls-1");
     var rect2 = $(".cls-2");
     var rect3 = $(".cls-3");
@@ -19,12 +19,27 @@ $(function() {
     var line3 = $(".cls-18");
     var line4 = $(".cls-19");
 
-    var tl1 = gsap.timeline({id:"tl1"});
+    var sD = 2;
+    var mD = 4;
+    var lD = 8;
+    var eI = "power4.in";
+    var eO = "power4.out";
+    var tl1 = gsap.timeline({
+        id: "tl1"
+    });
 
-    tl1.fromTo(rect1, 5, {opacity:0},{opacity:1}, "-=5");
-    // gsap.from(rect3, {opacity:0, x:-600, duration: 4});
-    // gsap.from(rect6, {opacity:0.5, y:350, duration: 3});
-    // gsap.from(rect8, {opacity:0.5, y:120, duration: 2});
+    tl1.fromTo(rect1, mD, {
+        opacity: 0,
+        y: "-100%",
+        ease: eI
+    }, {
+        opacity: 1,
+        y: "0",
+        ease: eO
+    }, "-=5");
+    
 
+
+    // no code beyond this point
     GSDevTools.create();
 });
