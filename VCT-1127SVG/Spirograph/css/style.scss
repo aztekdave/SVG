@@ -1,0 +1,137 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    .container {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        svg {
+            position: absolute;
+            top: 50px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+.cls-1 {
+    opacity: 0.25;
+}
+.cls-2 {
+    fill: #ffe600;
+}
+.cls-3 {
+    fill: #ffdc00;
+}
+.cls-4 {
+    fill: #ffca00;
+}
+.cls-5 {
+    fill: #ffa400;
+}
+.cls-6 {
+    fill: #ff7900;
+}
+.cls-7 {
+    fill: #ff5600;
+}
+.cls-8 {
+    fill: #ff3800;
+}
+.cls-9 {
+    fill: #ff1c00;
+}
+.cls-10 {
+    fill: #d90000;
+}
+.cls-11 {
+    fill: #c52b00;
+}
+.cls-12 {
+    fill: #9d0d42;
+}
+.cls-13 {
+    fill: #ac0062;
+}
+.cls-14 {
+    fill: #95004e;
+}
+.cls-15 {
+    fill: #860062;
+}
+.cls-16 {
+    fill: #72217e;
+}
+.cls-17 {
+    fill: #53357e;
+}
+.cls-18 {
+    fill: #2f357e;
+}
+.cls-19 {
+    fill: #264687;
+}
+.cls-20 {
+    fill: #3050b3;
+}
+.cls-21 {
+    fill: #0054e3;
+}
+.cls-22 {
+    fill: #0081e2;
+}
+.cls-23 {
+    fill: #2dace1;
+}
+.cls-24 {
+    fill: #00c5ed;
+}
+.cls-25 {
+    fill: #00cdd4;
+}
+.cls-26 {
+    fill: #00decf;
+}
+.cls-27 {
+    fill: #00cdc5;
+}
+.cls-28 {
+    fill: #0ab197;
+}
+.cls-29 {
+    fill: #0ab15d;
+}
+.cls-30 {
+    fill: #0aa200;
+}
+.cls-31 {
+    fill: #35bd00;
+}
+.cls-32 {
+    fill: #77e100;
+}
+.cls-33 {
+    fill: #a9e100;
+}
+.cls-34 {
+    fill: #cde600;
+}
+.cls-35 {
+    fill: #f2f500;
+}
+.cls-36 {
+    fill: #fff500;
+}
+
+ellipse {
+    opacity: 0;
+}

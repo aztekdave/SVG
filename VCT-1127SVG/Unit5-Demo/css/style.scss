@@ -1,0 +1,56 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    // text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ccc;
+
+    #svg {
+        border: 1px solid black;
+        background: #eee;
+        padding: 1em;
+        position: absolute;
+        top: 5em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+
+        g #rect1 {
+            fill: orange;
+        }
+
+        g #rect2 {
+            fill: lightblue;
+        }
+    }
+}
+
+// #svg:hover #rect3 {
+//     animation: 4s moveMask forwards;
+// }
+#rect3 {
+    animation: 4s moveMask alternate infinite;
+}
+
+@keyframes moveMask {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(-25px, 0px);
+    }
+    50% {
+        transform: translate(-25px, 25px);
+    }
+    75% {
+        transform: translate(0px, 25px);
+    }
+    100% {
+        transform: translate(0px, 50px);
+    }
+}

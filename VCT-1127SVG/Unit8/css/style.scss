@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.cls-1, .cls-8, .cls-11, .cls-15 {
+    fill: red;
+}
+
+.cls-2, .cls-7, .cls-9, .cls-12, .cls-13 {
+    fill: #fff;
+}
+
+.cls-3, .cls-5, .cls-10 {
+    fill: blue;
+}
+
+.cls-4, .cls-6, .cls-14 {
+    fill: #ff0;
+}
+
+.cls-16, .cls-17, .cls-18, .cls-19 {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 10px;
+}
