@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <clipPath id="clip-Web_1366_1">
+      <rect width="1366" height="768"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1366_1" data-name="Web 1366 – 1" clip-path="url(#clip-Web_1366_1)">
+    <rect width="1366" height="768" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1366" height="768" fill="#0f4c81"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" fill="#ff6f61" stroke="#707070" stroke-width="1">
+      <rect width="516" height="768" stroke="none"/>
+      <rect x="0.5" y="0.5" width="515" height="767" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(516.5 383.5) rotate(90)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="385" height="516" stroke="none"/>
+      <rect x="0.5" y="0.5" width="384" height="515" fill="none"/>
+    </g>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="271" cy="271" r="271" transform="translate(245 113)" fill="#fff"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="259" cy="259" r="259" transform="translate(258 125)"/>
+    <text id="Demo" transform="translate(897 234)" fill="#fff" font-size="121" font-family="Avenir-Book, Avenir"><tspan x="0" y="0">Demo</tspan></text>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="91" height="768" transform="translate(1275)" fill="#fff"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="368" height="385" transform="translate(907 384)" fill="#ff6f61"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="19" height="768" transform="translate(1310)"/>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(907 327)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="368" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="367" height="15" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(907 293)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="368" height="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="367" height="16" fill="none"/>
+    </g>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="459" height="15" transform="translate(907 98)" fill="#fff"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="422" height="14" transform="translate(907 53)" fill="#ff6f61"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="49" height="393" transform="translate(858 384)" fill="#fff"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="385" height="385" transform="translate(244.264 384.5) rotate(-45)" fill="#fff"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="214" height="214" transform="translate(365.264 478.5) rotate(-45)" fill="#ff6f61"/>
+  </g>
+</svg>

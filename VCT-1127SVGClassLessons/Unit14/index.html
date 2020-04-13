@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 14</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <svg id="mySvg">
+            <defs>
+                <filter id="f1" x="0" y="0">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+                    <feOffset dx="10" dy="10" />
+                </filter>
+            </defs>
+            <rect filter="url(#f1)" fill="gray" />
+            <rect />
+        </svg>
+    </div>
+
+    <div class="container2">
+        <section>
+            <canvas id="myCanvas1" width="300" height="300"></canvas>
+        </section>
+       </div>    
+       <div class="container3">
+        <section>
+            <canvas id="myCanvas2" width="300" height="300">
+        </canvas>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

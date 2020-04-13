@@ -1,0 +1,71 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ccc;
+}
+
+.container1 #mySvg {
+  width: 200px;
+  height: 200px;
+}
+
+.container1 #mySvg rect {
+  width: 180px;
+  height: 180px;
+  fill: #00f;
+}
+
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+}
+
+.container2 #myCanvas1 {
+  border: 3px solid #fff;
+}
+
+.container3 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: grey;
+}
+
+.container3 #myCanvas2 {
+  border: 3px solid #fff;
+}
+/*# sourceMappingURL=style.css.map */
