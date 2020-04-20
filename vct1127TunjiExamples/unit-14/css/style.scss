@@ -1,61 +1,92 @@
-*, html, body {
-    margin: 0;
-    padding: 0;
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
+
+@font-face {
+    font-family: 'Roboto', 'sans-serif';
+}
+
 .container1 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   // background-color: #000;
-    #mySvg {
-        width:200px;
-        height: 200px;
-        rect {
-            width:180px;
-            height: 180px; 
-           // fill: #F00;
-        }
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: #000;
+  #mySvg {
+    width: 200px;
+    height: 200px;
+    rect {
+      width: 180px;
+      height: 180px;
+      // fill: #F00;
     }
+  }
 }
+
 .container2 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-  
-    #myCanvas1{
-       // width: 300px;
-       // height: 300px;
-        border: 3px solid #fff; 
-    }
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  #myCanvas1 {
+    // width: 300px;
+    // height: 300px;
+    border: 3px solid #fff;
+  }
 }
 
 .container3 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-#myCanvas2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  #myCanvas2 {
     // width: 300px;
     // height: 300px;
-     border: 3px solid #fff;
-}
+    border: 3px solid #fff;
+  }
 }
 
 .container4 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    #myCanvas3 {
-        border: 3px solid #fff;
-    }
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  #myCanvas3 {
+    border: 3px solid #fff;
+  }
+}
+
+.container5 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  #myCanvas4 {
+    border: 3px solid #f00;
+  }
+}
+
+.container6 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+//   background-color: #000;
+  #myCanvas5 {
+    border: 3px solid #fff;
+  }
 }
