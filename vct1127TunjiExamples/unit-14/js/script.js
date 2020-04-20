@@ -47,7 +47,7 @@ canv4();
 function canv5() {
     var canvas5 = document.getElementById("myCanvas5");
     var ctx5 = canvas5.getContext("2d");
-    ctx5.font = '30px Arial';
+    ctx5.font = '30px Roboto';
     ctx5.textAlign = 'center';
     ctx5.fillStyle = 'red';
     // ctx5.strokeStyle = 'red';
